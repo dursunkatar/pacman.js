@@ -1,4 +1,4 @@
-document.body.insertAdjacentHTML('afterbegin', `<img style="margin:0;transform-origin: center center;position: absolute;top: 0;z-index:9999" id="pacman" src="https://i.hizliresim.com/M1WJdN.png" />`)
+document.body.insertAdjacentHTML('afterbegin', `<img style="margin:0;transform-origin: center center;position: absolute;top: 0;z-index:9999;width:125px;height:125px" id="pacman" src="https://i.hizliresim.com/M1WJdN.png" />`);
 const pacman = document.getElementById('pacman');
 const SAG = 1, SOL = 2;
 let konum = SOL;
